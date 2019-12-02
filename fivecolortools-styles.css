@@ -1,0 +1,80 @@
+
+p {
+    font-family: 'Alice', serif;
+    font-size: 23px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+}
+
+.quote {
+    font-style: italic;
+    background-color: gold;
+}
+
+a {
+    color: #42b4d6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-image: url("images/header.png");
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+header h1{
+    max-width: 780px;
+    color: white;
+    font-family: 'Miriam Libre', sans-serif;
+    font-size: 55px;
+    text-align: center;
+    margin: auto;
+}
+
+#teacher{
+    text-align: center;
+    margin-top: -50px;
+    color: rgb(51,51,51);
+    line-height: 33px;
+}
+
+#teacher img {
+    border-radius: 50%;
+    height: 100px;
+}
+
+#profileName{
+    font-family: 'Miriam Libre', serif;
+    font-size: 33px;
+    font-weight: bold;
+}
+#profileDesc{
+    font-style: italic;
+    border-bottom: solid #e6e6e6;
+    border-width: 2px;
+}
+
+h2 {
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(51,51,51);
+    padding-top: 120px;
+}
+
+.number {
+    color: rgba(0,0,0, 0.25);
+}
+
+#main {
+    margin: auto;
+    max-width: 66.6%;
+}
+
+#main p {
+    padding-top: 20px;
+}

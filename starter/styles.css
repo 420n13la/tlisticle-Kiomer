@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  color: #fff;
+  background-color: #5995DA;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  }
+
+.nav-items {
+  border: 1px solid #fff;
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+}
+.links {
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.test2 {
+  margin-left: 20px;
+}
+header {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
+}
+.header-items {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+}
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  align-items: center;
+.photo-grid {
+  /* ... */
+  flex-direction: row;
+  align-items: center;
+}
+
+.first-item {
+  order: 1;
+}
+
+.last-item {
+  order: -1;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #D6E9FE;
+  height: 200px;
+  flex: 1;
+}
+.footer-three {
+  flex: 2;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #D6E9FE;
+  height: 200px;
+  flex: 1;
+}
+.footer-one, .footer-three {
+background-color: #5995DA;
+flex: initial;
+width: 300px;
+}
+.filter, .social {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+.photo-grid {
+  /* ... */
+  flex-direction: row;
+  align-items: center;
+}
+
+.first-item {
+  order: 1;
+}
+
+.last-item {
+  order: -1;
+}
+@media screen and (max-width: 767px) {
+/* inside this media queries, we will write new rules to create new colors, sizes and alignments that are more suitable for devices of a screen size that is equal or less wider than 767px (most tablets) */
+}
+@media screen and (max-width: 480px) {
+/* inside this media queries, we will write new rules to create new colors, sizes and alignments that are more suitable for devices of a screen size that is equal or less wider than 480px (most smartphones) */
+}
+
+
+
+
